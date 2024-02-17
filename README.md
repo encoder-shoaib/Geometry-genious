@@ -1,3 +1,3 @@
-# Geometry-genious
+# Geometry-genius
 
-click here to visit my website :
+click here to visit my website : https://encoder-shoaib.github.io/Geometry-genious/
