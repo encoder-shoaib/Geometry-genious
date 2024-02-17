@@ -1,0 +1,16 @@
+ /* navbar color css */
+ .nav-bg-color{
+    background: rgba(16, 144, 216, 0.1);
+    border-radius: 8px;
+
+}
+.Area-Calculation{
+    height:320px;
+}
+/* For responsive css  */
+@media screen and (max-width:576px) {
+    .main-section {
+        flex-direction: column !important;
+    }
+
+}

@@ -1,0 +1,167 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>geometry-genius-resources-main</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Navbar section  -->
+   <header>
+    <nav>
+        <nav class="navbar nav-bg-color ">
+    <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-7 d-yl-block">Interactive <br> Geometry Genius</a>
+    <div class="d-flex " role="search">
+      <button id="navbar-button" class="btn btn-outline-success bg-primary fw-bold fs-6 text-light px-4" type="submit">Blog</button>
+    </div>
+    </div>
+    </nav>
+    </nav>
+   </header >
+   <!-- Main section  -->
+   <main class="container-lg mt-5">
+     <!-- All card section  -->
+    <section class=" main-section d-flex gap-5" >
+      <!-- Triangle card -->
+     <div class="W-75">
+        <div  class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div  class="card ">
+                <img src="images/triangle.png" class=" img-fluid mx-auto" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Triangle</h5>
+                 <small>Area (A) =0.5x b x h</small>
+                 <div class="d-flex justify-content-center align-items-center g-2">
+                        <input id="triangle-b" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="b">
+                        <h5 class="pe-2">cm</h5>
+                        <input id="triangle-h" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="h">
+                        <h5>cm</h5>
+                 </div>
+                 <div >
+                    <button id="Calculation-button" class="mt-2 rounded bg-primary ps-5 pe-5 fw-bold fs-6 text-light border-0">Calculate</button>
+                 </div> 
+                </div>
+              </div>
+            </div>
+            <!-- Rectangle card  -->
+            <div class="col">
+            <div id="randoms" class="card ">
+                <img src="images/rectangle.png" class="img-fluid mx-auto pb-4 pt-1" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title pt-2">Rectangle</h5>
+                    <small>Area (A)= w x I</small>
+                    <div class="d-flex justify-content-center align-items-center g-2">
+                            <input id="triangle-w" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="w">
+                            <h5 class="pe-2">cm</h5>
+                            <input id="triangle-i" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="I">
+                            <h5>cm</h5>
+                    </div>
+                    <div >
+                        <button id="Calculation-button-2" class="mt-2 bg-primary rounded  ps-5 pe-5 fw-bold fs-6 text-light border-0">Calculate</button>
+                    </div> 
+                </div>
+            </div>
+            </div>
+            <!-- Parallelogram card  -->
+            <div class="col">
+            <div class="card pb-1">
+                <img src="images/parallelogram (2).png" class="img-fluid mx-auto pb-4 pt-2 alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title pt-2">Parallelogram</h5>
+                    <small>Area (A) = b x h</small>
+                    <div class="d-flex justify-content-center align-items-center g-2">
+                           <input id="Parallelogram-b" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="b">
+                           <h5 class="pe-2">cm</h5>
+                           <input id="Parallelogram-h" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="h">
+                           <h5>cm</h5>
+                    </div>
+                    <div class="pt-2" >
+                        <button id="Calculation-button-3" class="mt-2 bg-primary rounded  ps-5 pe-5 fw-bold fs-6 text-light border-0">Calculate</button>
+                     </div> 
+                </div>
+              </div>
+            </div>
+<!-- Rhombus card  -->           
+            <div class="col">
+              <div class="card">
+                <img src="images/rhombus.png" class="img-fluid mx-auto  " alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Rhombus</h5>
+                    <small>Area (A) = 0.5x d1 x d2</small>
+                    <p>d1=10cm, d2=20cm</p>
+                    <div class="d-flex justify-content-center align-items-center g-2">
+                           <input id="Rhombus-d1" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="d1">
+                           <h5 class="pe-2">cm</h5>
+                           <input id="Rhombus-d2" class="w-25 rounded border border-1 bg-light bg-gradient" type="text" placeholder="d1">
+                           <h5>cm</h5>
+                           
+                    </div>
+                    <div>
+                        <button id="Calculation-button-4" class="mt-2 rounded bg-primary ps-5 pe-5 fw-bold fs-6 text-light border-0">Calculate</button>
+                     </div> 
+                </div>
+              </div>
+            </div>
+<!-- Pentagon card  -->
+            <div class="col">
+              <div class="card">
+                <img src="images/pentagon.png" class="img-fluid mx-auto" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pentagon</h5>
+                    <small>Area (A) = 0.5x p x b</small>
+                    <p>p=10cm,b=20cm</p>
+                    <div class="d-flex justify-content-center align-items-center g-2">
+                           <input id="Pentagon-p" class="w-25 border border-1 rounded bg-light bg-gradient " type="text" placeholder="p">
+                           <h5 class="pe-2">cm</h5>
+                           <input id="Pentagon-b" class="w-25 border border-1 rounded bg-light bg-gradient" type="text" placeholder="b">
+                           <h5>cm</h5>
+                    </div>
+                    <div >
+                        <button id="Calculation-button-5" class="mt-2 rounded bg-primary ps-5 pe-5 fw-bold fs-6 text-light border-0">Calculate</button>
+                     </div> 
+                </div>
+              </div>
+            </div>
+<!-- Ellipse card  -->
+            <div class="col">
+              <div class="card">
+                <img src="images/ellipse.png" class="img-fluid mx-auto pb-3" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title pb-2">Ellipse</h5>
+                    <small>Area (A) = πXaxb</small>
+                    <p class="pb-2">a=10cm, b=20cm</p>
+                    <div class="d-flex justify-content-center align-items-center g-2">
+                           <input id="Ellipse-a" class="w-25  border border-1 rounded bg-light bg-gradient" type="text" placeholder="a">
+                           <h5 class="pe-2">cm</h5>
+                           <input id="Ellipse-b" class="w-25 border border-1 rounded bg-light bg-gradient" type="text" placeholder="b">
+                           <h5>cm</h5>
+                    </div>
+                    <div>
+                        <button id="Calculation-button-6" class="mt-1 bg-primary rounded  ps-5 pe-5 pt-2 fw-bold fs-6 text-light border-0">Calculate</button>
+                     </div> 
+                </div>
+              </div>
+            </div>
+<!-- Showing Answer card  -->
+          </div>
+     </div>
+     <div id="display-container" class="container-fluids Area-Calculation container-lg  wx-15 border border-3  ">
+
+            <P class=" text-center  "><u class="fw-bold fs-6">Area Calculation</u></P>
+              
+            </div>
+          </div>
+     </div>
+    </section>
+ </main>
+ <!-- js link  -->
+     <script src="js/Utilities.js"></script>
+     <script src="js/Calcilator.js"></script>
+     <script src="js/Questions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
